@@ -1,0 +1,27 @@
+created virtual environment CPython3.11.5.final.0-64 in 3101ms
+  creator CPython3Posix(dest=/local/scratch/hav.11338377.0/env, clear=False, no_vcs_ignore=False, global=False)
+  seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/home/hav/.local/share/virtualenv)
+    added seed packages: pip==26.0.1+computecanada, setuptools==82.0.0+computecanada, wheel==0.46.3+computecanada
+  activators BashActivator,CShellActivator,FishActivator,NushellActivator,PowerShellActivator,PythonActivator
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v4, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Requirement already satisfied: pip in /local/scratch/hav.11338377.0/env/lib/python3.11/site-packages (26.0.1+computecanada)
+Looking in links: /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v4, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/x86-64-v3, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/gentoo2023/generic, /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/statsmodels-0.14.6+computecanada-cp311-cp311-linux_x86_64.whl
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/jinja2-3.1.6+computecanada-py3-none-any.whl
+Requirement already satisfied: numpy<3,>=1.22.3 in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2026a/lib/python3.11/site-packages (from statsmodels) (2.4.2+computecanada)
+Requirement already satisfied: scipy!=1.9.2,>=1.8 in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2026a/lib/python3.11/site-packages (from statsmodels) (1.17.0+computecanada)
+Requirement already satisfied: pandas!=2.1.0,>=1.4 in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2026a/lib/python3.11/site-packages (from statsmodels) (3.0.0+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/patsy-1.0.2+computecanada-py2.py3-none-any.whl (from statsmodels)
+Requirement already satisfied: packaging>=21.3 in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2026a/lib/python3.11/site-packages (from statsmodels) (26.0+computecanada)
+Processing /cvmfs/soft.computecanada.ca/custom/python/wheelhouse/generic/markupsafe-3.0.3+computecanada-cp311-cp311-linux_x86_64.whl (from Jinja2)
+Requirement already satisfied: python-dateutil>=2.8.2 in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2026a/lib/python3.11/site-packages (from pandas!=2.1.0,>=1.4->statsmodels) (2.9.0.post0+computecanada)
+Requirement already satisfied: six>=1.5 in /cvmfs/soft.computecanada.ca/easybuild/software/2023/x86-64-v4/Compiler/gcccore/scipy-stack/2026a/lib/python3.11/site-packages (from python-dateutil>=2.8.2->pandas!=2.1.0,>=1.4->statsmodels) (1.17.0+computecanada)
+Installing collected packages: patsy, MarkupSafe, Jinja2, statsmodels
+
+Successfully installed Jinja2-3.1.6+computecanada MarkupSafe-3.0.3+computecanada patsy-1.0.2+computecanada statsmodels-0.14.6+computecanada
+Filtering datasets...
+Formatting data types for Statsmodels...
+Running Specification 7...
+Saved: /home/hav/scratch/sunshine/regression_results_spec_7.tex
+
+All 7 specifications completed successfully.
